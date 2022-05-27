@@ -2,42 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 main {
   margin: 10px;
   padding: 5px 7px 5px;
@@ -45,7 +9,7 @@ main {
 
 input {
   text-align: right;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 330px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -54,13 +18,9 @@ input {
 
 table {
   display: inline-block;
-  padding: 20px;
-  background-color: grey;
-  border-radius: 10px;
-}
-
-.displaytable {
-  display: table;
+  padding: 25px;
+  background-color: #17202A;
+  border-radius: 20px;
 }
 
 .displaytable-cell {
@@ -68,29 +28,22 @@ table {
 }
 
 .button {
+  background-color: #17202A;
+  color: #CCD1D1;
   width: 60px;
   height: 35px;
   font-size: 20px;
+  border: 1px solid;
   border-radius: 5px;
+  border-color: #CCD1D1;
+  cursor: pointer;
+  
 }
 
-.blackbutton { 
-  background-color: black; 
-  color: white;
+.numberbutton {
+  background-color: #2980B9;
 }
 
-.greenbutton {
-  background-color: #91ff7d;
-}
-
-.greybutton {
-  background-color: #cccccc;
-}
-
-.bluebutton {
-  background-color: #6288f3;
-}
-
-.redbutton {
+.clearbutton {
   background-color: #f76767;
 }

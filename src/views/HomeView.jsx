@@ -14,7 +14,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMClear">
 							<button
-								class="button greybutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.clearMemory()}
 							>
@@ -25,7 +25,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMRead">
 							<button
-								class="button greybutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.readMemory()}
 							>
@@ -36,7 +36,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMAdd">
 							<button
-								class="button greybutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.addToMemory()}
 							>
@@ -47,7 +47,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMSub">
 							<button
-								class="button greybutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.subtractFromMemory()}
 							>
@@ -58,7 +58,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMSave">
 							<button
-								class="button greybutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.saveToMemory()}
 							>
@@ -71,7 +71,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSquare">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.square()}
 							>
@@ -82,7 +82,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bNthPowerOfTenOr">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.nthTenPower()}
 							>
@@ -93,7 +93,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSine">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('sin(')}
 							>
@@ -104,7 +104,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bCosine">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('cos(')}
 							>
@@ -115,7 +115,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bTangent">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('tan(')}
 							>
@@ -128,7 +128,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bCube">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.cube()}
 							>
@@ -139,7 +139,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bInverseNumber">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.inverseNumber()}
 							>
@@ -150,7 +150,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSqrt">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('sqrt(')}
 							>
@@ -161,7 +161,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bLogOr">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('log(')}
 							>
@@ -172,7 +172,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bNaturalLog">
 							<button
-								class="button blackbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeMathFunction('ln(')}
 							>
@@ -196,7 +196,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bClearDisplayCE">
 							<button
-								class="button redbutton"
+								class="button clearbutton"
 								type="button"
 								onClick={() => calculadora.clearDisplay()}
 							>
@@ -207,7 +207,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bClearDisplayC">
 							<button
-								class="button redbutton"
+								class="button clearbutton"
 								type="button"
 								onClick={() => calculadora.clearDisplay()}
 							>
@@ -218,7 +218,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bDelete">
 							<button
-								class="button redbutton"
+								class="button clearbutton"
 								type="button"
 								onClick={() => calculadora.eraseLastInput()}
 							>
@@ -229,7 +229,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bDivide">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay('/')}
 							>
@@ -253,7 +253,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSeven">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('7')}
 							>
@@ -264,7 +264,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bEight">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('8')}
 							>
@@ -275,7 +275,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bNine">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('9')}
 							>
@@ -286,7 +286,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bMultiply">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay('*')}
 							>
@@ -310,7 +310,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bFour">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('4')}
 							>
@@ -321,7 +321,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bFive">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('5')}
 							>
@@ -332,7 +332,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSix">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('6')}
 							>
@@ -343,7 +343,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bSubtract">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay('-')}
 							>
@@ -356,7 +356,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bToggleSign">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.toggleSign()}
 							>
@@ -367,7 +367,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bOne">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('1')}
 							>
@@ -378,7 +378,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bTwo">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('2')}
 							>
@@ -389,7 +389,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bThree">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('3')}
 							>
@@ -400,7 +400,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bAdd">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay('+')}
 							>
@@ -413,7 +413,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bOpenParentheses">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay('(')}
 							>
@@ -424,7 +424,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bCloseParentheses">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeOperatorToDisplay(')')}
 							>
@@ -435,7 +435,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bZero">
 							<button
-								class="button bluebutton"
+								class="button numberbutton"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('0')}
 							>
@@ -446,7 +446,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bDot">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.writeToDisplay('.')}
 							>
@@ -457,7 +457,7 @@ export const HomeView = () => {
 					<td>
 						<div class="displaytable-cell" id="bEquals">
 							<button
-								class="button greenbutton"
+								class="button"
 								type="button"
 								onClick={() => calculadora.solveOperation()}
 							>
